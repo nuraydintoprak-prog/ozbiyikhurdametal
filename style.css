@@ -1008,7 +1008,7 @@ body.nav-open { overflow: hidden; }
 .district-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 4px 20px;
   justify-content: center;
   max-width: 980px;
   margin: 0 auto 32px;
@@ -1016,23 +1016,16 @@ body.nav-open { overflow: hidden; }
 
 .district-badge {
   display: inline-block;
-  padding: 9px 18px;
-  background: #fff;
-  border: 1.5px solid var(--border);
-  border-radius: 50px;
-  font-size: 13px;
-  font-weight: 600;
-  color: var(--primary);
+  font-size: 14px;
+  font-weight: 400;
+  color: #555;
   text-decoration: none;
-  transition: all 0.18s;
-  white-space: nowrap;
+  transition: color 0.15s;
 }
 
 .district-badge:hover {
-  background: var(--gold);
-  border-color: var(--gold);
-  color: #111;
-  transform: translateY(-1px);
+  color: var(--gold);
+  text-decoration: underline;
 }
 
 .district-seo-text {
