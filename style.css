@@ -953,6 +953,57 @@ body.nav-open { overflow: hidden; }
   line-height: 1.7;
 }
 
+/* ── KVKK ÇEREZ BARI ── */
+.kvkk-bar {
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  background: #111;
+  color: #ccc;
+  font-size: 13px;
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  z-index: 10000;
+  flex-wrap: wrap;
+  box-shadow: 0 -2px 16px rgba(0,0,0,0.4);
+}
+
+.kvkk-bar p { margin: 0; line-height: 1.5; flex: 1; min-width: 200px; }
+.kvkk-bar a { color: var(--gold); text-decoration: none; }
+
+.kvkk-bar-btns { display: flex; gap: 10px; flex-shrink: 0; }
+
+.kvkk-accept {
+  background: var(--gold);
+  color: #111;
+  border: none;
+  padding: 9px 22px;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.kvkk-decline {
+  background: transparent;
+  color: #888;
+  border: 1px solid #444;
+  padding: 9px 18px;
+  border-radius: 4px;
+  font-size: 13px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.kvkk-decline:hover { color: #ccc; border-color: #888; }
+
+@media (max-width: 768px) {
+  .kvkk-bar { bottom: 56px; padding: 12px 16px; font-size: 12px; }
+}
+
 /* ── İLÇELER / HİZMET BÖLGELERİ ── */
 .district-grid {
   display: flex;
