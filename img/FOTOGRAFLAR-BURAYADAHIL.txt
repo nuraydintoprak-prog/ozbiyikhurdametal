@@ -1,0 +1,36 @@
+============================================
+ÖZ BIYIK METAL - FOTOĞRAF KLASÖRÜ
+============================================
+
+Fotoğraflarınızı bu klasöre aşağıdaki isimlerle kaydedin:
+
+--- ANA SAYFA / METAL ÇEŞİTLERİ ---
+demir.jpg        → Demir/çelik hurda fotoğrafı
+bakir.jpg        → Bakır hurda fotoğrafı
+aluminyum.jpg    → Alüminyum hurda fotoğrafı
+paslanmaz.jpg    → Paslanmaz çelik hurda fotoğrafı
+
+--- HAKKIMIZDA ---
+hakkimizda.jpg   → Firma/ekip fotoğrafı
+
+--- GALERİ (12 adet) ---
+galeri-1.jpg
+galeri-2.jpg
+galeri-3.jpg
+galeri-4.jpg
+galeri-5.jpg
+galeri-6.jpg
+galeri-7.jpg
+galeri-8.jpg
+galeri-9.jpg
+galeri-10.jpg
+galeri-11.jpg
+galeri-12.jpg
+
+--- OPSİYONEL ---
+hero-bg.jpg      → Ana sayfa arka plan (karanlık metal fotoğrafı)
+
+============================================
+NOT: JPG yerine PNG veya WEBP de kullanabilirsiniz,
+sadece HTML dosyasındaki uzantıyı değiştirin.
+============================================

@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ozbiyikhurdametal.com.tr/sitemap.xml
+
+# AI Crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# LLMs.txt - AI için site açıklaması
+# https://ozbiyikhurdametal.com.tr/llms.txt
